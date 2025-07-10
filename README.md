@@ -49,6 +49,7 @@ Add the following dependency to your `pom.xml`:
     </dependency>    
 </dependencies>    
 
+
 ✅ Prerequisites
 Java JDK 8 or above
 
@@ -56,20 +57,27 @@ Maven 3.6+
 
 PostgreSQL 10 or above
 
-IDE: Eclipse / IntelliJ IDEA
+IDE: Eclipse / IntelliJ
 
 Git (for cloning the project)
 
+
 🧱 Database Setup
 Run the following SQL in PostgreSQL to create the required tables:
-
-CREATE TABLE patients (  
+CREATE TABLE flights (  
     id SERIAL PRIMARY KEY,  
-    name VARCHAR(100),  
-    age INT,  
-    gender VARCHAR(10),  
-    contact VARCHAR(15)  
+    source VARCHAR(100),  
+    destination VARCHAR(100),  
+    seats INT  
 );  
+
+CREATE TABLE bookings (  
+    id SERIAL PRIMARY KEY,  
+    flight_id INT REFERENCES flights(id),  
+    passenger_name VARCHAR(100),  
+    booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP  
+);  
+
 
 
 **📷 Sample Output**  
