@@ -43,11 +43,11 @@ It allows users to manage flights, book tickets, and view real-time booking stat
         <artifactId>postgresql</artifactId>
         <version>42.7.7</version>
     </dependency>
-</dependencies>
+</dependencies>    
    
 
 
-✅ Prerequisites
+**✅ Prerequisites**
 Java JDK 8 or above
 
 Maven 3.6+
@@ -59,21 +59,21 @@ IDE: Eclipse / IntelliJ
 Git (for cloning the project)
 
 
-🧱 Database Setup
-Run the following SQL in PostgreSQL to create the required tables:
-CREATE TABLE flights (  
-    id SERIAL PRIMARY KEY,  
-    source VARCHAR(100),  
-    destination VARCHAR(100),  
-    seats INT  
-);  
+**🧱 Database Setup**  
+Run the following SQL in PostgreSQL to create the required tables:  
+CREATE TABLE flights (    
+    id SERIAL PRIMARY KEY,    
+    source VARCHAR(100),    
+    destination VARCHAR(100),    
+    seats INT    
+);    
 
-CREATE TABLE bookings (  
-    id SERIAL PRIMARY KEY,  
-    flight_id INT REFERENCES flights(id),  
-    passenger_name VARCHAR(100),  
-    booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP  
-);  
+CREATE TABLE bookings (    
+    id SERIAL PRIMARY KEY,    
+    flight_id INT REFERENCES flights(id),    
+    passenger_name VARCHAR(100),    
+    booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP    
+);    
 
 
 
