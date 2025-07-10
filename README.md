@@ -1,53 +1,50 @@
-# 🏥 Clinic Management System (Java Console + JDBC)
+# ✈️ Airline Reservation System
 
-A simple console-based Java application to manage patient records in a clinic.  
-This project demonstrates basic **CRUD operations** using **Core Java**, **Object-Oriented Programming (OOP)** principles, and **JDBC** for database interaction with **PostgreSQL**.
+A **console-based Airline Reservation System** built using **Core Java**, **Maven**, and **PostgreSQL**.  
+It allows users to manage flights, book tickets, and view real-time booking statistics with timestamps.
 
 ---
 
 ## 👥 Group Members
 
-1. Mayuri Vijay Surve  
-2. Pragati Santosh Gore  
-3. Vaishnavi Prashant Shete  
+1. **Prerana Anand Nalawade**
+2. **Rajnandini Ravindra Ambure**
+3. **Samruddhi More**
 
 ---
 
-## 📌 Features
+## 🚀 Features
 
-- ✅ Add new patient  
-- ✅ View all patients  
-- ✅ Update patient details  
-- ✅ Delete patient record  
-- ✅ Console-based menu system  
-- ✅ Connected to PostgreSQL using JDBC  
+- **Add Flights** – Insert flight data with source, destination, and number of seats  
+- **View All Flights** – Display all available flights  
+- **Book Tickets** – Reserve a ticket under a passenger's name with timestamp  
+- **Auto Seat Update** – Automatically decreases available seats after booking  
+- **Booking Stats** – Shows who booked which flight and when  
+- **Thread-Ready Design** – Clean separation of DAO & model for multithreading support  
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
-| Technology     | Description                       |
-|----------------|-----------------------------------|
-| Java           | Core Java, OOP Concepts           |
-| JDBC           | Java Database Connectivity        |
-| PostgreSQL     | Relational Database               |
-| Maven          | Dependency Management             |
-| Git & GitHub   | Version Control & Collaboration   |
+- **Java** – Core Java (OOP, Collections, Exception Handling)  
+- **Maven** – Project & Dependency Management  
+- **JDBC** – Java Database Connectivity for SQL operations  
+- **PostgreSQL** – Backend database  
+- **IDE** – Eclipse or IntelliJ IDEA  
 
 ---
 
 ## 📦 Dependencies
 
-Add the following dependency to your `pom.xml`:
-
-<dependencies>    
-    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->    
-    <dependency>    
-        <groupId>org.postgresql</groupId>    
-        <artifactId>postgresql</artifactId>    
-        <version>42.7.7</version>    
-    </dependency>    
-</dependencies>    
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.7</version>
+    </dependency>
+</dependencies>
+   
 
 
 ✅ Prerequisites
