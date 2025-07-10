@@ -52,9 +52,9 @@ Java JDK 8 or above
 
 Maven 3.6+
 
-PostgreSQL 10 or above
+PostgreSQL
 
-IDE: Eclipse / IntelliJ
+IDE: Eclipse 
 
 Git (for cloning the project)
 
