@@ -40,14 +40,14 @@ This project demonstrates basic **CRUD operations** using **Core Java**, **Objec
 
 Add the following dependency to your `pom.xml`:
 
-<dependencies>  
-    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->  
-    <dependency>  
-        <groupId>org.postgresql</groupId>  
-        <artifactId>postgresql</artifactId>  
-        <version>42.7.7</version>  
-    </dependency>  
-</dependencies>  
+<dependencies>    
+    <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->    
+    <dependency>    
+        <groupId>org.postgresql</groupId>    
+        <artifactId>postgresql</artifactId>    
+        <version>42.7.7</version>    
+    </dependency>    
+</dependencies>    
 
 ✅ Prerequisites
 Java JDK 8 or above
