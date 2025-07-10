@@ -72,11 +72,11 @@ CREATE TABLE patients (
 );  
 
 
-**📷 Sample Output**
+**📷 Sample Output**  
 <img width="346" height="173" alt="image" src="https://github.com/user-attachments/assets/5564c5c0-6bf6-4be9-8dc5-3f391319494e" />  
 
-**📫 Contact**
-Name: Prerana Nalawade
-Email: prerananalawade5@gmail.com
+**📫 Contact**  
+Name: Prerana Nalawade  
+Email: prerananalawade5@gmail.com  
 GitHub: PreranaNalawade
 
