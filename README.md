@@ -1,4 +1,4 @@
-# ✈️ Airline Reservation System
+## ✈️ Airline Reservation System
 
 A **console-based Airline Reservation System** built using **Core Java**, **Maven**, and **PostgreSQL**.  
 It allows users to manage flights, book tickets, and view real-time booking statistics with timestamps.
@@ -27,7 +27,7 @@ It allows users to manage flights, book tickets, and view real-time booking stat
 ---
 
 ## 📦 Dependencies
-
+```
 <dependencies>
     <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
     <dependency>
@@ -36,10 +36,10 @@ It allows users to manage flights, book tickets, and view real-time booking stat
         <version>42.7.7</version>
     </dependency>
 </dependencies>    
-   
+```   
+---
 
-
-**✅ Prerequisites**
+## **✅ Prerequisites**
 Java JDK 8 or above
 
 Maven 3.6+
@@ -50,9 +50,10 @@ IDE: Eclipse
 
 Git (for cloning the project)
 
-
-**🧱 Database Setup**  
+---
+## **🧱 Database Setup**  
 Run the following SQL in PostgreSQL to create the required tables:  
+```
 CREATE TABLE flights (    
     id SERIAL PRIMARY KEY,    
     source VARCHAR(100),    
@@ -66,10 +67,10 @@ CREATE TABLE bookings (
     passenger_name VARCHAR(100),    
     booking_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP    
 );    
+```
+---
 
-
-
-**📷 Sample Output**  
+## **📷 Sample Output**  
 <img width="346" height="173" alt="image" src="https://github.com/user-attachments/assets/5564c5c0-6bf6-4be9-8dc5-3f391319494e" />  
 
 **📫 Contact**  
