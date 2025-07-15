@@ -5,14 +5,6 @@ It allows users to manage flights, book tickets, and view real-time booking stat
 
 ---
 
-## 👥 Group Members
-
-1. **Prerana Anand Nalawade**
-2. **Rajnandini Ravindra Ambure**
-3. **Samruddhi More**
-
----
-
 ## 🚀 Features
 
 - **Add Flights** – Insert flight data with source, destination, and number of seats  
